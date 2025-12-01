@@ -4,6 +4,7 @@
 
 This project implements a Python-based system for ingesting, storing, and querying multi-ticker (AAPL, MSFT, GOOG, TSLA, AMZN) OHLCV market data.
 
+
 It directly compares two different storage solutions for financial data:
 1.  **SQLite3:** A relational (row-based) database, excellent for transactions and data integrity.
 2.  **Parquet:** A columnar (column-based) storage format, optimized for large-scale analytical queries.
@@ -89,3 +90,7 @@ The scripts are designed to be run in order.
     pytest
 ```
     This will automatically discover and run the tests in the `tests/` folder.
+
+## Acknowledgments
+
+This project was developed with assistance from Google Gemini AI for code generation, debugging, and implementation guidance.
